@@ -24,9 +24,9 @@
 - Necessary Parameters
 	```python
 	- 'gpu_id': gpu number which you want to use (only support single gpu).
-	- 'data_name': {FMNIST, CIFAR-10}. # others will be supported later
+	- 'data_name': {MNIST, CIFAR-10}. # others will be supported later
 	- 'model_name': {DenseNet-25-12, WideResNet16-8}
-	- 'method_name': {Random Batch, Online Batch, Active Bias, Ada-Hard, Ada-Uniform, Ada-Boundary}.
+	- 'method_name': {Ada-Hard, Ada-Uniform, Ada-Boundary}.
 	- 'optimizer': {sgd, momentum}
 	- 'weight_sharing': {true, false} # if true, all the method share the same parameters 
 	                                  # until 10 epoch (see Section 5.1 for details)
@@ -38,7 +38,7 @@
 	python main.py 'gpu_id' 'data_name' 'model_name' 'method_name' 'optimizer' 'weight_sharing' 'log_dir'
 	
     # e.g., train on Fashion-MNIST using Ada-Boundary with weight sharing and sgd.
-    # python main.py '0' 'FMNIST' 'DenseNet-25-12' 'Ada-Boundary' 'sgd' 'true' 'log'
+    # python main.py '0' 'MNIST' 'DenseNet-25-12' 'Ada-Boundary' 'sgd' 'true' 'log'
 	```	
 - Detail of Log File
 	```python
