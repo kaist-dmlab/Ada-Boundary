@@ -13,8 +13,11 @@
 - Please do not change the structure of directories:
 	- Folder **_dataset_** contains benchmark datasets (FMNIST, CIFAR-10). Due to the lack of space, the other data will be uploaded soon. Moreover, **_.bin_** format is used for the synthetic data because they can be loaded at once in main memory.
 	- Folder **_src_** provides all the code for evaluation with compared methods.
-	
-### 2.1. Tutorial for Evaluation.
+### 3. Datasets and Weight Sharing
+ - Datasets and Models (for weight sharing) can be downloaded in https://bit.ly/2YhrTsR
+ - Please locate the two folder (**_dataset_**  and **_init_weight_** ) in the **_src_**  folder.
+
+### 4. Tutorial for Evaluation.
 - Training Configuration
 	```python
 	# All the hyperparameters of baseline methods were set to the same value described in our paper.
