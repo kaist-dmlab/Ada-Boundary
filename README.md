@@ -1,4 +1,4 @@
-## MORPH: Robust Learning by Self-Transition for Handling Noisy Labels
+## Ada-Boundary: Accelerating DNN Training via Adaptive Boundary Batch Selection
 
 > __Publication__ </br>
 > Song, H., Sundong, K., Kim, M., and Lee, J., "Ada-Boundary: Accelerating DNN Training via Adaptive Boundary Batch Selection," *Machine Learning (ECML-PKDD Journal Track)*, Sep. 2020.
