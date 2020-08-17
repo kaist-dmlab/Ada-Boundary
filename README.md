@@ -11,7 +11,7 @@
 ##  2. Description
 - We provide the training/evaluation of all compared algorithms in the paper. 
 - Please do not change the structure of directories:
-	- Folder **_dataset_** contains benchmark datasets (MNIST, CIFAR-10). Due to the lack of space, the other data will be uploaded soon. Moreover, **_.bin_** format is used for the synthetic data because they can be loaded at once in main memory.
+	- Folder **_dataset_** contains benchmark datasets (FMNIST, CIFAR-10). Due to the lack of space, the other data will be uploaded soon. Moreover, **_.bin_** format is used for the synthetic data because they can be loaded at once in main memory.
 	- Folder **_src_** provides all the code for evaluation with compared methods.
 	
 ### 2.1. Tutorial for Evaluation.
