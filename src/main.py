@@ -41,7 +41,7 @@ def main():
     weight_sharing = sys.argv[6]
     log_dir = sys.argv[7]
 
-    datapath = str(Path(os.path.dirname((os.path.abspath(__file__)))).parent) + "/dataset/" + data
+    datapath = str(Path(os.path.dirname((os.path.abspath(__file__)))).parent) + "/src/dataset/" + data
     if os.path.exists(datapath):
         print("Dataset exists in ", datapath)
     else:
