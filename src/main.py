@@ -7,7 +7,7 @@ from method.AdaBatch import *
 
 
 def main():
-    print("------------------------------------------------------------------------")
+    print("-------------------------------------------------------------------------")
     print("This Tutorial is to train DensNet or WideResNet in tensorflow-gpu environment.")
     print("\nDescription -----------------------------------------------------------")
     print("Available algorithms: {Random Batch, Online Batch, Active Bias, Ada-Hard, Ada-Uniform, Ada-Boundary}")
