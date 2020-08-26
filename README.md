@@ -26,7 +26,7 @@
 	
 - Necessary Parameters
 	```python
-	- 'gpu_id': gpu number which you want to use (only support single gpu).
+	- 'gpu_id': GPU number which you want to use (only support single gpu).
 	- 'data_name': {MNIST, CIFAR-10}. # others will be supported later
 	- 'model_name': {DenseNet-25-12, WideResNet16-8}
 	- 'method_name': {Ada-Hard, Ada-Uniform, Ada-Boundary}.
