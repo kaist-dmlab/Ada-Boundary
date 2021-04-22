@@ -49,4 +49,6 @@
     # format: epoch, elapsed time, lr, mini-batch loss, mini-batch error, trainng loss, 
     #         training error, test loss, test error
 	```	
+	
+	
 
